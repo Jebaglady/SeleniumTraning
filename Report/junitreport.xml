@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="35.093985">
+    <testcase classname="To validate the account creation of fb application" name="To create new account" time="7.225666">
+        <system-out><![CDATA[Given To launch the browser maximise the window.............................passed
+When To launch the url of fb application....................................passed
+And To click the create new account button..................................passed
+And To pass the firstname in firstname text box.............................passed
+And To pass the secondname in secondname text box...........................passed
+And To pass mobileno or email in email text box.............................passed
+And To create new password using new password text box......................passed
+Then To close the chrome browser............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validated the login functionality of facebook application" name="To validate login with empty username and empty password" time="2.988665">
+        <system-out><![CDATA[Given To launch the chrome browser maximize window..........................passed
+When To launch the url of the facebook Application..........................passed
+And To pass validate username in email field................................passed
+And To pass invalid username in password field..............................passed
+And To click the login button...............................................passed
+And To check whether navigate to the home page or not.......................passed
+Then close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validated the login functionality of facebook application" name="To validate the positive and negative combination of login functionality" time="3.516661">
+        <system-out><![CDATA[Given To launch the chrome browser maximize window..........................passed
+When has to hit the facebook url............................................passed
+And User has to pass the data "Selenium@gmail.com" in email field...........passed
+And User has to pass the data "Inmakes"in password field....................passed
+And the user has to click the login button..................................passed
+Then the user has to close the login button.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validated the login functionality of facebook application" name="To validate the positive and negative combination of login functionality 2" time="3.401019">
+        <system-out><![CDATA[Given To launch the chrome browser maximize window..........................passed
+When has to hit the facebook url............................................passed
+And User has to pass the data "abc@gmail.com" in email field................passed
+And User has to pass the data "00341"in password field......................passed
+And the user has to click the login button..................................passed
+Then the user has to close the login button.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validated the login functionality of facebook application" name="To validate the positive and negative combination of login functionality 3" time="4.834243">
+        <system-out><![CDATA[Given To launch the chrome browser maximize window..........................passed
+When has to hit the facebook url............................................passed
+And User has to pass the data "inmakes@gmail.com" in email field............passed
+And User has to pass the data "selenium"in password field...................passed
+And the user has to click the login button..................................passed
+Then the user has to close the login button.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validated the login functionality of facebook application" name="To validate the positive and negative combination of login functionality 4" time="4.221767">
+        <system-out><![CDATA[Given To launch the chrome browser maximize window..........................passed
+When has to hit the facebook url............................................passed
+And User has to pass the data "iframe@gmail.com" in email field.............passed
+And User has to pass the data "cucumber"in password field...................passed
+And the user has to click the login button..................................passed
+Then the user has to close the login button.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validated the login functionality of facebook application" name="To validate the positive and negative combination of login functionality 5" time="3.474904">
+        <system-out><![CDATA[Given To launch the chrome browser maximize window..........................passed
+When has to hit the facebook url............................................passed
+And User has to pass the data "manualtestin@gmail.com" in email field.......passed
+And User has to pass the data "676767"in password field.....................passed
+And the user has to click the login button..................................passed
+Then the user has to close the login button.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validated the login functionality of facebook application" name="To validate the positive and negative combination of login functionality 6" time="5.43106">
+        <system-out><![CDATA[Given To launch the chrome browser maximize window..........................passed
+When has to hit the facebook url............................................passed
+And User has to pass the data "apitesting@gmail.com" in email field.........passed
+And User has to pass the data "gmail"in password field......................passed
+And the user has to click the login button..................................passed
+Then the user has to close the login button.................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
